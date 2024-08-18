@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+
+</head>
+<body>
+    
+<div class="container">
+   
+   
+  <input id="display" readonly placeholder="0">
+    
+    <div class="buttons" id="buttons">
+<button onclick="allClear()" id="ac">AC</button>
+<button onclick="displayTo('%')">%</button>
+<button onclick="del()">DEL</button>
+<button onclick="displayTo('/')">/</button>
+<button onclick="displayTo('7')">7</button>
+<button onclick="displayTo('8')">8</button>
+<button onclick="displayTo('9')">9</button>
+<button onclick="displayTo('*')">*</button>
+<button onclick="displayTo('4')">4</button>
+<button onclick="displayTo('5')">5</button>
+<button onclick="displayTo('6')">6</button>
+<button onclick="displayTo('-')">-</button>
+<button onclick="displayTo('1')">1</button>
+<button onclick="displayTo('2')">2</button>
+<button onclick="displayTo('3')">3</button>
+<button onclick="displayTo('+')">+</button>
+<button onclick="displayTo('00')">00</button>
+<button onclick="displayTo('0')">0</button>
+<button onclick="displayTo('.')">.</button>
+<button onclick="calc()">=</button>
+
+
+    </div>
+
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
